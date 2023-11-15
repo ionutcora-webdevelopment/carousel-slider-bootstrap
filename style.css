@@ -1,0 +1,56 @@
+body,
+h2,
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+}
+
+.navbar .navbar-toggler-icon {
+    filter: invert();
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#carouselExampleAutoplaying {
+    height: 100vh;
+}
+
+#carouselExampleAutoplaying h2 {
+    font-size: 5rem;
+}
+
+#carouselExampleAutoplaying h2,
+#carouselExampleAutoplaying p {
+    text-shadow: 2px 2px 8px #000000;
+}
+
+@media only screen and (max-width: 992px) {
+    #carouselExampleAutoplaying {
+        height: auto;
+    }
+
+    #navbarSupportedContent {
+        background: transparent;
+        backdrop-filter: blur(15px);
+        box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+        margin-top: 0.7rem;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #carouselExampleAutoplaying h2 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #carouselExampleAutoplaying h2 {
+        font-size: 2.5rem;
+    }
+}
